@@ -1,0 +1,40 @@
+{
+  "name": "vklymniuk-logger",
+  "version": "0.0.1",
+  "description": "ManageTeam Logger that supports formatting and logging to Sentry",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vklymniuk/logger.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "Vladimir Klymniuk <Vladimir.Klymniuk@gmail.com>",
+  "license": "MIT-advertising",
+  "bugs": {
+    "url": "https://github.com/vklymniuk/logger/issues"
+  },
+  "homepage": "https://github.com/vklymniuk/logger#readme",
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://nexus.infra.manageteam.internal/repository/vklymniuk-npm-repo/"
+  },
+  "dependencies": {
+    "mkdirp": "^2.1.3",
+    "winston": "^3.8.2",
+    "winston-sentry": "^0.2.1"
+  },
+  "devDependencies": {
+    "semantic-release": "^20.1.0",
+    "@vklymniuk/semantic-release-config": "^0.0.1"
+  }
+}

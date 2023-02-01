@@ -18,5 +18,5 @@ logger.info('Process finished');
 ## Sentry
 
 Sentry logging is enabled automatically when APP__DEBUG is set to false and provided:
-* SENTRY__DSN=https://key:secret@sentry.io/269489
+* SENTRY__DSN=https://key:secret@sentry.io/222222
 * APP__ENV_NAME=prod
